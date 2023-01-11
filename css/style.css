@@ -1,3 +1,57 @@
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    padding: 1.5rem;
+}
+.navbar-nav > .active > a {
+    color: #EA5D2A !important;
+}
+@media only screen and (max-width: 992px) {
+    #rescon-hero{
+        text-align: center;
+    }
+}
+
+button.outline {
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    z-index: 3;
+    background: transparent;
+    color: #1172c4;
+    font-size: 14px;
+    border-color: #1172c4;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 22px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: all 0.2s linear;
+}
+button.outline a {
+    text-decoration: none;
+  }
+  button.outline:hover {
+    color: white;
+    background: #1172c4;
+    border-color: white;
+    transition: all 0.2s linear;
+  }
+  button.outline:active {
+    border-radius: 22px;
+}
+button.green-white {
+    font-weight: 700;
+    color: #E95C20;
+    border-color: #E95C20;
+    background: transparent;
+  }
+button.green-white:hover {
+    color: white;
+    background: #E95C20;
+    border-color: #E95C20;
+}
 .buttons {
     text-align: center;
 }
